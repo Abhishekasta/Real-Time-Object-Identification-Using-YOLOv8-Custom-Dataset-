@@ -1,0 +1,12 @@
+train: C:\Users\pooja\OneDrive\Desktop\FINAL_YOLO\Object Detection.v1i.yolov8\train\images
+val: C:\Users\pooja\OneDrive\Desktop\FINAL_YOLO\Object Detection.v1i.yolov8\valid\images
+test: C:\Users\pooja\OneDrive\Desktop\FINAL_YOLO\Object Detection.v1i.yolov8\test\images
+nc: 15
+names: ['AC', 'Bag', 'Bottle', 'Cell phone', 'Chair', 'Computer mouse', 'Images', 'Keyboard', 'Pen', 'Student', 'Student ID', 'Table', 'Window', 'closed book', 'computer']
+
+roboflow:
+  workspace: sushila-k-navi
+  project: object-detection-htegw
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sushila-k-navi/object-detection-htegw/dataset/1
